@@ -1,0 +1,22 @@
+const express = require('express')
+const server = express()
+const products = require('./src/data/produtos.json')
+
+server.get('/', (req, res)=>{
+    res.json({message: 'Oi meu povo!'})
+})
+
+server.get('/produtos', (req, res)=>{
+    res.json(products)
+})
+
+server.get('/usuarios', (req,res)=>{
+    res.json({user: "Rafinha do grau"})
+})
+
+server.get('/games', (req, res)=>{
+    res.json({game: 'Mario World'})
+})
+
+server.listen(8080, () => {console.log ('Rodando na porta 8080')})
+

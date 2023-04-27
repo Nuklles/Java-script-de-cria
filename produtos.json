@@ -1,0 +1,19 @@
+[ 
+    
+   {
+
+     "nome":"Leila cabelos",
+     "descricao": "Produtos de cabelo",
+     "preco": 40,
+     "categoria": "cosmeticos"
+  },
+  {
+
+     "nome":"Natura",
+     "descricao": "Perfume",
+     "preco": 80,
+     "categoria": "cosmeticos"
+   
+  }
+]
+ 
